@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is flipkart clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js -e .js"
+  },
+  "author": "Abhinandan Maity",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.8",
+    "multer": "^1.4.2",
+    "nanoid": "^3.1.23",
+    "noty": "^3.2.0-beta-deprecated",
+    "slugify": "^1.5.3",
+    "sweetalert": "^2.1.2"
+  }
+}

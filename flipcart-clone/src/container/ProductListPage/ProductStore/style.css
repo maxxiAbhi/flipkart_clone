@@ -1,0 +1,40 @@
+.my-card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.product-container{
+    width: 200px;
+    display: flex;
+}
+.product-image-container{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 10px auto !important;
+}
+.product-image-container img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.product-info{
+    text-align: center;
+   
+}
+.product-info .reating{
+    background-color: aquamarine;
+    margin-right: 10px;
+}
+.product-info .price{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.product-info .product-name{
+        font-size: 14px;
+        margin-top: 20px;
+    font-weight: 600;
+}
+.product-main-container{
+    margin-right:50px;
+}

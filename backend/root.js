@@ -1,0 +1,1 @@
+exports.dirr=__dirname;
